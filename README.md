@@ -13,4 +13,5 @@ During the test, we observed the following facts:
 * Both the player with the exact Q-table and the one using the neural network had an advantage over the random player, especially when they had the first move.
 * The player using the naive strategy was no challenge for either of the policies.
 * The player with the exact Q-table had a complete advantage over the player using the neural network.
+
 Interestingly, the Q-table generated through the long-term game (50,000) outperformed the Q-table generated from a short series of games (500) using the neural network. One possible reason for this is that the Q-table generated through a long-term game includes more game states, leading to better coverage of the state space. In contrast, the neural network-based Q-table's accuracy was limited by the size of the dataset used to train the network. Additionally, the neural network's training algorithm may have overfit the training data, resulting in poor performance on new data. Therefore, the neural network-based Q-table was not able to outperform the Q-table generated through a long-term game.
