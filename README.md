@@ -46,5 +46,5 @@ Below is a table showing the probabilities of game outcomes between the given ag
 | -------- | -------- | -------- | -------- | -------- |
 | Q_learning|   0.0, 0.0, 1.0    |    0.0, 1.0, 0.0    |    0.11, 0.47, 0.41    |    0.0, 1.0, 0.0     |
 | Neural_network |    5     |    6     |    7     |    0.0, 1.0, 0.0     |
-| Random |    0.96, 0.0, 0.04   |    0.88, 0.04, 0.08    |    11    |    NA   |
+| Random |    0.96, 0.0, 0.04   |    0.88, 0.04, 0.08    |    0.37, 0.28, 0.35    |    NA   |
 | Naive |    1.0, 0.0, 0.0   |    14    |    NA  |    0.45, 0.27, 0.27    |
