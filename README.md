@@ -28,8 +28,11 @@ After the Q-table is trained, the agent can use it to make decisions during the 
 
 ## Neural network agent
 
+<div style="text-align:center">
+
 ![pic 1](https://github.com/KordianChi/tic-tac-toe_with_Q_learning/blob/main/model.png)
 
+</div>
 The second agent, which is a neural network, was trained on a much smaller dataset of 500 games. This network was built with linear dense layers, which means that each neuron in a given layer is connected to every neuron in the previous and next layer. This allows the network to learn complex relationships between input (game state array) and output (Q-value prediction for each possible action).
 
 In the case of the second agent, instead of creating a Q-table, the neural network was trained to predict Q-values for each possible game state. Similar to the first agent, these values were calculated based on the Bellman equation. When the network is tested, it predicts the Q-values for each possible action based on the current game state, and then selects the action with the highest Q-value.
