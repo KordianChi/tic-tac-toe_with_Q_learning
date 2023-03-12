@@ -5,6 +5,8 @@ This project aims to apply Q-learning algorithm in a Tic Tac Toe game. The game 
 
 This project involves using Q-learning in a tic-tac-toe game and testing the possibility of using a neural network to reproduce the Q-table based on a smaller number of games. The project serves as an exercise before taking on more advanced challenges in the field of reinforcement learning.
 
+## Test
+
 To test the effectiveness of the neural network, the Q-table generated from a long game (50,000) will be compared with the D-table generated from a short series of games (500). The test involves playing games with a random player, a player using a naive strategy, and between themselves. In each case, both algorithms will play 10,000 games as both O and X.
 
 During the test, we observed the following facts:
