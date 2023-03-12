@@ -48,3 +48,13 @@ Below is a table showing the probabilities of game outcomes between the given ag
 | Neural_network |    1.0, 0.0, 0.0    |    0.0, 1.0, 0.0     |    0.11, 0.47, 0.41    |    0.0, 0.67, 0.33     |
 | Random |    0.96, 0.0, 0.04   |    0.88, 0.04, 0.08    |    0.37, 0.28, 0.35    |    NA   |
 | Naive |    1.0, 0.0, 0.0   |    1.0, 0.0, 0.0   |    NA  |    0.45, 0.27, 0.27    |
+
+## What next?
+
+In my project, I applied Q-learning to the game of Tic Tac Toe using two approaches: the first approach involved calculating the Q-table through Bellman's equation based on a long series of games, while the second approach used a neural network to approximate the Q-table based on a short series of games. However, the results are not yet entirely satisfactory.
+
+As a next step, I could consider several possible directions for further exploration. One option would be to experiment with different hyperparameters and try to improve the training process of the neural network. Another possibility would be to investigate different features that could be used as input to the neural network, such as board symmetry or other heuristic evaluations. Additionally, I could try implementing other reinforcement learning algorithms or applying Q-learning to other games.
+
+Given that this project was a small exercise before attempting more ambitious reinforcement learning projects, I believe that the experience gained from this project will be useful going forward. I learned valuable lessons about the challenges involved in training a reinforcement learning agent and gained insight into the importance of selecting appropriate hyperparameters and features. Moving forward, I plan to continue learning about reinforcement learning and exploring more complex applications of this exciting field.
+
+Overall, while the current results may not be entirely satisfactory, this project has provided a solid foundation for future exploration and experimentation in the field of reinforcement learning.
